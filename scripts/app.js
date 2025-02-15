@@ -146,8 +146,6 @@ async function displayData()
             });
         })
 
-        // localStorage.clear()
-
         btnToDo.addEventListener('click', () => {
             let tempData = index;
             removeTask(index[0]);
